@@ -1,26 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import 'Components/banner.css';
+@import 'Components/buttons.css';
 
 h1{
-	color: darkblue;
+	color: whitesmoke;
 
 }
 
-*{
+
+body{
   font-family: 'Roboto', sans-serif;
   background-color: honeydew;
+  margin:0;
 }
-.grey-buttons{
-  color: antiquewhite;
-  font-weight: 400;
-  font-size: 18;
-  background-color: dimgray;
-  margin: 30px;
-  padding: 10px 20px ;
-  text-decoration: none;
-  border-radius: 5px;
-  box-shadow: 10px 20px 30px grey;
 
-
+#banner {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: middle;
 
 }
