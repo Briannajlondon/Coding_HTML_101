@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1{
+	color: darkblue;
+
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  background-color: honeydew;
+}
+.grey-buttons{
+  color: antiquewhite;
+  font-weight: 400;
+  font-size: 18;
+  background-color: dimgray;
+  margin: 30px;
+  padding: 10px 20px ;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 10px 20px 30px grey;
+
+
+
+}
