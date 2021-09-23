@@ -1,5 +1,5 @@
 
-</!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -16,11 +16,26 @@
 </div>
 
 <div class="buttons">
-  <a class="grey-buttons" href="#">ABOUT</a>
-  <a class="grey-buttons" href="#">IMAGES</a>
-  <a class="grey-buttons" href="#">INFO</a>
+  <a class="grey-buttons" id="about" href="#">ABOUT</a>
+  <a class="grey-buttons" id="media" href="#">MEDIA</a>
+  <a class="grey-buttons" id="info" href="#">INFO</a>
+</div>
+<div class="hiddenabout hidden contentabout">
+  <h3>About this page</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repudiandae vero eos mollitia enim veniam! In sed, nostrum similique placeat numquam dolor temporibus fuga autem? Enim quia totam beatae incidunt!</p>
+  </div>
+<div class="hiddenmedia hidden contentmedia">
+  <h3>Here is a cool video:</h3><br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pnU5wKv9l_s" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+
+  <h4> Here is a picture of the dog I want: </h4>
+  <img src="Images/dog.jpeg">
 </div>
 
+<div class="hiddeninfo hidden contentinfo">
 	<h3> Here are some links: </h3>
 
     <ul>
@@ -28,10 +43,11 @@
       <li><a href="#">Example 2</a></li>
       <li><a href="#">Example 3</a></li>
     </ul>
-  <h3>Here is a cool video:</h3><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pnU5wKv9l_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
-	<h4> Here is a picture of the dog I want: </h4>
-	<img src="Images/dog.jpeg">
+
+
+  <script src='index.js'></script>
+
 </body>
 </html>
